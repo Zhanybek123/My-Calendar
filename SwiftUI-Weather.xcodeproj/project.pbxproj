@@ -11,6 +11,8 @@
 		D827A59F286E0ECE009F6B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D827A59E286E0ECE009F6B55 /* ContentView.swift */; };
 		D827A5A1286E0ED0009F6B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D827A5A0286E0ED0009F6B55 /* Assets.xcassets */; };
 		D827A5A4286E0ED0009F6B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D827A5A3286E0ED0009F6B55 /* Preview Assets.xcassets */; };
+		D827A5AB286E41B7009F6B55 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D827A5AA286E41B6009F6B55 /* WeatherButton.swift */; };
+		D8CB5626287504930053BAE7 /* DaysOfTheWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB5625287504930053BAE7 /* DaysOfTheWeek.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D827A59E286E0ECE009F6B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D827A5A0286E0ED0009F6B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D827A5A3286E0ED0009F6B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D827A5AA286E41B6009F6B55 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		D8CB5625287504930053BAE7 /* DaysOfTheWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeek.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D827A59C286E0ECE009F6B55 /* SwiftUI_WeatherApp.swift */,
 				D827A59E286E0ECE009F6B55 /* ContentView.swift */,
+				D827A5AA286E41B6009F6B55 /* WeatherButton.swift */,
+				D8CB5625287504930053BAE7 /* DaysOfTheWeek.swift */,
 				D827A5A0286E0ED0009F6B55 /* Assets.xcassets */,
 				D827A5A2286E0ED0009F6B55 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D827A59F286E0ECE009F6B55 /* ContentView.swift in Sources */,
+				D8CB5626287504930053BAE7 /* DaysOfTheWeek.swift in Sources */,
 				D827A59D286E0ECE009F6B55 /* SwiftUI_WeatherApp.swift in Sources */,
+				D827A5AB286E41B7009F6B55 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
